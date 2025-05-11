@@ -8,7 +8,7 @@
 '''
 
 import telebot 
-token='8182648863:AAHfTHFU5Kazl9prItINnuFYvrODTxdgTMw'
+#token='8182648863:AAHfTHFU5Kazl9prItINnuFYvrODTxdgTMw'
 bot=telebot.TeleBot(token)
 @bot.message_handler(commands=['start']) # если ввести сообщение /start или нажать на кнопку Start
 def get_text(message):  # то бот его обработает
